@@ -1,0 +1,9 @@
+2020-12-08T21:27:50+00:00 CRITICAL Uncaught Error: Call to a member function get_instance_option_key() on bool in C:\xampp\htdocs\blogsenac\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:2816
+Stack trace:
+#0 C:\xampp\htdocs\blogsenac\wp-includes\class-wp-hook.php(287): WC_AJAX::shipping_zone_methods_save_changes('')
+#1 C:\xampp\htdocs\blogsenac\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\blogsenac\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\blogsenac\wp-admin\admin-ajax.php(176): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown, em C:\xampp\htdocs\blogsenac\wp-content\plugins\woocommerce\includes\class-wc-ajax.php, na linha 2816
+

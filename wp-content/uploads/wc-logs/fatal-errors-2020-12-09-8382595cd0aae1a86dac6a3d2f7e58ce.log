@@ -1,0 +1,10 @@
+2020-12-09T00:18:51+00:00 CRITICAL Uncaught Exception: Armazenamento de dados inválido. in C:\xampp\htdocs\blogsenac\wp-content\plugins\woocommerce\includes\data-stores\class-wc-shipping-zone-data-store.php:102
+Stack trace:
+#0 C:\xampp\htdocs\blogsenac\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Shipping_Zone_Data_Store->read(Object(WC_Shipping_Zone))
+#1 C:\xampp\htdocs\blogsenac\wp-content\plugins\woocommerce\includes\class-wc-shipping-zone.php(62): WC_Data_Store->read(Object(WC_Shipping_Zone))
+#2 C:\xampp\htdocs\blogsenac\wp-content\plugins\woocommerce\includes\class-wc-shipping-zones.php(115): WC_Shipping_Zone->__construct(4)
+#3 C:\xampp\htdocs\blogsenac\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(2689): WC_Shipping_Zones::delete_zone(4)
+#4 C:\xampp\htdocs\blogsenac\wp-includes\class-wp-hook.php(287): WC_AJAX::shipping_zones_save_changes('')
+#5 C:\xampp\htdocs\blogsenac\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\blogsenac\wp-includes\plugin.php(478): W, em C:\xampp\htdocs\blogsenac\wp-content\plugins\woocommerce\includes\data-stores\class-wc-shipping-zone-data-store.php, na linha 102
+

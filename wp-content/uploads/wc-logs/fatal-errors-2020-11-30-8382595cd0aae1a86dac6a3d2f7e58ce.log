@@ -1,0 +1,10 @@
+2020-11-30T02:59:46+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\blogsenac\wp-includes\class-wp-hook.php on line 289 and defined in C:\xampp\htdocs\blogsenac\wp-content\plugins\elementor\includes\template-library\sources\local.php:1085
+Stack trace:
+#0 C:\xampp\htdocs\blogsenac\wp-includes\class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(82, NULL)
+#1 C:\xampp\htdocs\blogsenac\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\blogsenac\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\blogsenac\wp-includes\post.php(4260): do_action('save_post', 82, NULL, true)
+#4 C:\xampp\htdocs\blogsenac\wp-includes\post.php(4354): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\blogsenac\wp-content\plugins\elementor\includes\db.php(228): wp_update_post(Array)
+#6 C:\xampp\htdocs\blogsenac\wp-content\plugins\elementor\core\base\document., em C:\xampp\htdocs\blogsenac\wp-content\plugins\elementor\includes\template-library\sources\local.php, na linha 1085
+
